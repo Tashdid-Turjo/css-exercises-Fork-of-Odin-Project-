@@ -1,1 +1,20 @@
 /* Add CSS Styling */
+.Same-one{
+    background-color: red;
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+    /* margin-right: 8px; this one not needed. */
+}
+
+.Different-one1{
+    color: white;
+    background-color: black;
+}
+
+.Different-two2{
+    background-color: yellow;
+}
+
+/* button.Same-one {        this one not needed.
+    margin-right: 8px;
+} */

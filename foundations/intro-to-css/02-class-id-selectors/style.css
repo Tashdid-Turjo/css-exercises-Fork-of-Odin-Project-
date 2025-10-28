@@ -2,7 +2,7 @@
 .odd {
     /* color: rgb(0, 0, 0); [No need to add if as default is black color] */
     background-color: rgb(240, 176, 187);
-    font-family: Verdana, "DejaVu Sans", sans-serif;
+    font-family: Verdana, "DejaVu Sans", sans-serif;    /* When it has space, then use quotation */
 }
 
 #two {
