@@ -1,0 +1,13 @@
+/* Doing these: For div -> External CSS Type Selector,
+                For p   -> Internal CSS Type Selector,
+                For button -> Inline CSS. */
+
+div {
+    color: white;
+    background-color: red;
+    /* width: 200px;          centering a div, use width & margin */
+    /* margin: 0 auto; */
+    font-size: 32px;
+    font-weight: 400;        /* to bold the text */
+    text-align: center;       /* centering a text inside div, use text-align */ 
+}
