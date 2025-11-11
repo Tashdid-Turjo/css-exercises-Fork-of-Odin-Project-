@@ -18,14 +18,14 @@
 
   /* I DID */
   margin: 10px;
-  /* justify-content: center; /* individual control won't work */ */
+  /* justify-content: center;   /* individual control won't work */
   /* I DID */
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
-  
+
   /* I DID */
   display: flex;
   padding: 10px;
