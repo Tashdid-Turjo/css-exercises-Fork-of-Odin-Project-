@@ -10,7 +10,18 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+
+  /* I did */
+  text-align: center;
+  /* I did */
 }
+
+/* I did */
+.flex-container {
+  display: flex;
+}
+  /* I did */
+
 
 /* do not edit this footer */
 .footer {
