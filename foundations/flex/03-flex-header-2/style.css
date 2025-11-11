@@ -12,6 +12,12 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+
+  /* I did */
+  display: flex;
+  align-items: center;
+  /* gap: 1px;            ?? not sure ??*/
+  /* I did */
 }
 
 .profile-image {
@@ -20,6 +26,11 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+
+  /* I did */
+  margin-right: 8px;
+  /* margin-left: auto;       ?? don't know why this won't work. */
+  /* I did */
 }
 
 .logo {
@@ -27,6 +38,10 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+
+  /* I did */
+  padding: 10px;
+  /* I did */
 }
 
 button {
@@ -35,14 +50,34 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+
+  /* I did */
+  margin-left: auto;
+  margin-right: 8px;
+  gap: 10px;
+  /* I did */
 }
 
 a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+
+  /* I did */
+  align-items: center;
+  margin-right: 8px;
+  /* I did */
 }
 
 ul {
   list-style-type: none;
+
+  /* I did */
+  display: flex;
+  gap: 10px;
+  /* I did */
 }
+
+/* --------------------------------------------------------- */
+/* didn't solved: the 16px space between each item on both sides of the header. */
+/* --------------------------------------------------------- */
