@@ -1,4 +1,7 @@
 <!-- This Exercise DONE -->
+<!-- /* --------------------------------------------------------- */ -->
+<!-- /* didn't solved: the 16px space between each item on both sides of the header. */ -->
+/* --------------------------------------------------------- */
 
 # Another common header style
 
