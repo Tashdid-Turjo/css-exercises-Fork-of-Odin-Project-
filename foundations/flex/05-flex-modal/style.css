@@ -17,9 +17,19 @@ body {
 
 .modal {
   background: white;
-  width: 480px;
+  /* width: 480px; */
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+
+  /* TODO: I did */
+  height: 200px;
+  width: 500px;
+
+
+  /* !! wanna do individual padding for each item. */
+  /* padding: 20px; */
+  
+  /* TODO: I did */
 }
 
 .icon {
@@ -67,3 +77,56 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* TODO:-------------------- I did --------------------*/
+.icon-header-close,
+.text,
+.continue-cancel {
+  display: flex;
+}
+
+.icon-header-close {
+  /* padding: 10px; */
+  background-color: red;
+  /* justify-content: center;
+  align-items: center; */
+  margin-top: 5px;
+}
+
+.icon {
+  margin-right: 20px;
+}
+
+.header {
+  font-weight: 900;
+  margin-right: 130px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3px;
+}
+
+.text {
+  margin-top: -8px;
+  margin-left: 62px;
+  background-color: yellow;
+}
+
+.continue-cancel {
+  margin-top: 15px;
+  margin-left: 62px;
+  gap: 5px;
+  background-color: brown;
+}
+
+
+
+
+/* .text {
+  display: flex;
+}
+
+.continue-cancel {
+  display: flex;
+} */
+
+/* TODO:-------------------- I did --------------------*/
