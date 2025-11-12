@@ -74,4 +74,13 @@ input {
   background-color: green;
 }
 
+ul {
+  /* !! changes the default bullet. */
+  list-style-type: none;
+}
+
+a {
+  /* !! change the underline part. */
+  text-decoration: none;
+}
 /* TODO:----------------- I did -----------------*/
