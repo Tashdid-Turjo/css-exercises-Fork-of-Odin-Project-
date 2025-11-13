@@ -23,7 +23,7 @@ button {
   background: #eee;
 
   /* TODO: I did */
-  padding: 6px;
+  padding: 10px;
   /* TODO: I did */  
 }
 
@@ -41,19 +41,40 @@ input {
 .header,
 .footer {
   display: flex;
-  background-color: red;
-  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+
+  /* !! Recommended by Odin Project instead of bg color. */
+  /* outline: 2px solid red; */
+  padding: 2px;
+}
+
+.header {
+  /* !! Used for visualization. */
+  /* background-color: red;  */
 }
 
 .footer {
   /* margin-bottom: 0; */
+  background-color: #eeeeee;
 }
 
 .left-links,
 .right-links {
   display: flex;
   gap: 20px;
-  background-color: yellow;
+
+  /* !! Used for visualization. */
+  /* background-color: yellow; */
+  /* outline: 2px solid red; */
+}
+
+.left-links {
+  margin-left: -25px;
+}
+
+.right-links {
+  margin-right: 20px;
 }
 
 .content {
@@ -62,16 +83,18 @@ input {
   align-items: center;
   justify-content: center;
   gap: 20px;
-
   flex-grow: 1;
   padding: 200px solid green;
 
-  /* padding: 200px; */
-  background-color: blue;
+  /* !! Used for visualization. */
+  /* background-color: blue; */
+  /* outline: 2px solid red; */
 }
 
 .buttons {
-  background-color: green;
+  gap: 20px;
+  /* !! Used for visualization. */
+  /* background-color: green; */
 }
 
 ul {
@@ -82,5 +105,6 @@ ul {
 a {
   /* !! change the underline part. */
   text-decoration: none;
+  color: black;
 }
 /* TODO:----------------- I did -----------------*/
